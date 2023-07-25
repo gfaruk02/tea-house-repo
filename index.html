@@ -35,9 +35,9 @@
     </style>
 </head>
 <body class="font-manrope">
-    <header class=" container mx-auto">
-        <div class="hero">
-            <div class="hero-content flex-col lg:flex-row">
+    <header class=" container mx-auto max-w-6xl">
+        <div class="py-10 px-5">
+            <div class="flex justify-between items-center flex-col lg:flex-row">
               <div>
                 <h1 class="text-7xl font-extrabold">
                     It's good <br>
@@ -45,12 +45,12 @@
                     Tea House
                 </h1>
                 <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-                <button class="btn btn-primary">Explore More</button>
+                <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white">Explore More <i class="fa-solid fa-arrow-trend-up"></i></button>
               </div>
               <div> 
-                <img src="/images/banner.png" class="max-w-sm " />
+                <img src="/images/banner.png" class="" />
                 <!-- ratings badge -->
-                <div class=" -mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60">
+                <div class="ml-20 -mt-28 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60">
                     <i class="fa-solid fa-star text-3xl text-amber-400"></i>
                    <div> 
                     <h3 class="text-3xl"> 5.00</h3>
@@ -135,18 +135,18 @@
             </div>
         </section>
         <!-- super clients section  -->
-        <section class="my-24 flex flex-col lg:flex-row gap-12 rounded-xl bg-gradient-to-r from-gradient-start to-gradient-end lg:px-16 px-5 py-24"> 
+        <section class="my-24 flex flex-col lg:flex-row gap-12 rounded-xl bg-gradient-to-r from-gradient-start to-gradient-end lg:px-16 px-5 py-16"> 
           <div class="flex items-center"> 
             <div class="space-y-5"> 
               <h2 class="text-5xl font-extrabold text-white">Meet Our Super <br>Clients</h2>
               <p class="text-white lg:pr-24">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.  </p>
-              <button class="btn btn-primary">Show All</button>
+              <button class="btn btn-primary bg-white border-none text-[#f00]">Show All</button>
             </div>
           </div>
           <!-- clients reviews  -->
           <div class="relative"> 
             <!-- next review  -->
-            <div class=" z-10 relative mb-16 opacity-40 p-10 rounded-lg bg-white "> 
+            <div class=" z-10 relative mb-16 opacity-40 pl-14 py-5 rounded-lg bg-white "> 
               <img class="absolute -top-5 -left-5 border-4 border-white  rounded-full bg-white" src="./images/client.png" alt="">
               <p> We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
               <h4 class="font-bold mt-5">Ilham Yuda</h4>
@@ -156,7 +156,7 @@
               </div>
             </div>
             <!-- current review  -->
-            <div class=" z-20 absolute lg:-left-28 lg:w-[410px] top-40 p-10 rounded-lg bg-white "> 
+            <div class=" z-20 absolute lg:-left-28 lg:w-[410px] top-40 pl-14 py-5 rounded-lg bg-white "> 
               <img class="absolute -top-5 -left-5 border-4 border-white  rounded-full bg-white" src="./images/client.png" alt="">
               <p> We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
               <h4 class="font-bold mt-5">Ilham Yuda</h4>
@@ -166,7 +166,7 @@
               </div>
             </div>
             <!-- provious review  -->
-            <div class=" z-10 relative opacity-40 p-10 rounded-lg bg-white "> 
+            <div class=" z-10 relative opacity-40 pl-14 py-5 rounded-lg bg-white "> 
               <img class="absolute -top-5 -left-5 border-4 border-white  rounded-full bg-white" src="./images/client.png" alt="">
               <p> We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
               <h4 class="font-bold mt-5">Ilham Yuda</h4>
@@ -178,17 +178,17 @@
           </div>
         </section>
     </main>
-    <footer class="p-10 bg-base-200 text-base-content px-32 ">
-      <div class="flex justify-between py-10"> 
+    <footer class="p-10 bg-base-200 text-base-content lg:px-32 ">
+      <div class="flex gap-20 justify-between py-10 "> 
         <img src="./images/cup.png" alt="">
         <p> 
-          <span> 
+          <span class="pr-5"> 
             Ready to get strated?
           </span>
           <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white">Get Started </button>
         </p>
       </div>
-      <div class="footer "> 
+      <div class="footer grid grid-cols-2 lg:grid-cols-4"> 
         <div>
           <span class="footer-title">Services</span> 
           <a class="link link-hover">Branding</a> 
@@ -211,18 +211,18 @@
         </div> 
         <div>
           <span class="footer-title">Newsletter</span> 
-          <div class="form-control w-80">
+          <div class="form-control lg:w-80">
             <label class="label">
               <span class="label-text">Enter your email address</span>
             </label> 
             <div class="relative">
-              <input type="text" placeholder="username@site.com" class=" bg-transparent border-b-2 border-black outline-none pb-5" /> 
-              <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end absolute top-0 right-0 rounded-l-none text-white"><i class="fa-solid fa-chevron-right"></i></button>
+              <input type="text" placeholder="username@site.com" class=" bg-transparent border-b-2 border-black outline-none pb-6" /> 
+              <button class="btn bg-gradient-to-r from-gradient-start py-1  px-4 to-gradient-end absolute top-0  rounded-full text-white"><i class="fa-solid fa-chevron-right"></i></button>
             </div>
           </div>
         </div>
       </div>
-      <div class="text-center py-5">
+      <div class="text-center py-10">
         <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
       </div>
     </footer>
